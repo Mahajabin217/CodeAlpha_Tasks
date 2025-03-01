@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="lightgallery/css/lightgallery.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: white
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .gallery a {
+            display: block;
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 3px 5px black;
+        }
+
+        .gallery a img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery a img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+        <a href="images/1.jpeg">
+            <img src="images/1.jpeg" alt="">
+        </a>
+        <a href="images/2.jpeg">
+            <img src="images/2.jpeg" alt="">
+        </a>
+        <a href="images/3.jpeg">
+            <img src="images/3.jpeg" alt="">
+        </a>
+        <a href="images/4.jpeg">
+            <img src="images/4.jpeg" alt="">
+        </a>
+        <a href="images/5.jpeg">
+            <img src="images/5.jpeg" alt="">
+        </a>
+        <a href="images/6.jpeg">
+            <img src="images/6.jpeg" alt="">
+        </a>
+        <a href="images/7.jpeg">
+            <img src="images/7.jpeg" alt="">
+        </a>
+        <a href="images/8.jpeg">
+            <img src="images/8.jpeg" alt="">
+        </a>
+    </div>
+
+    <script src="lightgallery/js/lightgallery.umd.js"></script>
+
+    <script>
+        lightGallery(document.querySelector(".gallery"));
+    </script>
+</body>
+
+
+</html>
