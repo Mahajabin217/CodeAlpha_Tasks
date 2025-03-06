@@ -7,6 +7,7 @@
 }
 
 .button{
+    width: 54px;
     padding: 20px;
     margin: 0 3px;
     border: 2px solid black;
@@ -19,7 +20,9 @@
 }
 
 .row input{
-    padding: 20px 33px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px  0px;
     border: 2px solid black;
     border-radius: 4px;
 }
