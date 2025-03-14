@@ -1,0 +1,117 @@
+
+/* About Section */
+#about {
+    padding: 80px 0;
+    /* text-align: center; */
+}
+
+.container {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; */
+    width: 80%;
+    margin: auto;
+}
+
+/* Profile Image */
+/* .about-img {
+    flex: 1;
+    text-align: center;
+} */
+
+.about-img img {
+    /* max-width: 100%; */
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* height: 200px;
+    border-radius: 10px;
+    border: 5px solid #00ff99; */
+}
+
+.about-navbar{
+    padding:40px;
+    text-align: center;
+}
+
+.about-body{
+    text-align: left;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+}
+
+/* About Text */
+.about-text {
+    padding: 20px;
+}
+
+.about-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.subheading {
+    color: white;
+    font-size: 14px;
+}
+
+
+.about-info p {
+    /* margin: 5px 0; */
+    font-size: 18px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(15, 155, 210);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    /* margin-top: 20px; */
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links a {
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: skyblue;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .about-body {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+

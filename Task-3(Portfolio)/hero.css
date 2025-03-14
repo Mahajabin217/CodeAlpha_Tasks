@@ -1,0 +1,51 @@
+
+.container {
+text-align: center;
+font-family: Arial, sans-serif;
+color: white;
+background-color: black;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.name {
+font-size: 70px;
+font-weight: bold;
+}
+
+.text {
+font-size: 40px;
+margin-top: 10px;
+}
+
+.cursor {
+color: white;
+animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+50% {
+    opacity: 0;
+}
+}
+
+.social-links {
+position: absolute;
+right: 40px;
+top: 80%;
+transform: translateY(-50%);
+display: flex;
+flex-direction: column;
+font-size: 30px;
+}
+
+i {
+font-size: 30px;
+color: white;
+}
+
+a:hover i {
+color: lightskyblue;
+}
