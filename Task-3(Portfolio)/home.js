@@ -3,7 +3,7 @@ function toggleMenu() {
     navLinks.classList.toggle("active");
 }
 
-const words = ["Designer", "Developer", "Programmer", "Freelancer", "Software Engineer"]; 
+const words = ["Designer", "Developer", "Frontend Developer", "Programmer", "Software Engineer"];
 let index = 0;
 let charIndex = 0;
 let isDeleting = false;
