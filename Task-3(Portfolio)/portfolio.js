@@ -36,19 +36,3 @@ function typeEffect() {
 
 typeEffect();
 
-// About section:
-//Function to show the About section and hide the Home section
-function goToAbout() {
-    // Hide Home section
-    document.getElementById("home").style.display = "none"; 
-    // Show About section
-    document.getElementById("about").style.display = "block"; 
-}
-
-// Function to show the Home section and hide the About section
-function goBackToHome() {
-    // Hide About section
-    document.getElementById("about").style.display = "none"; 
-    // Show Home section
-    document.getElementById("home").style.display = "block"; 
-}
